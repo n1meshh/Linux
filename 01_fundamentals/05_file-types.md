@@ -15,7 +15,9 @@ cat hello.txt            # View content
 head -n 10 hello.txt     # First 10 lines
 tail -f /var/log/syslog  # Monitor log file live
 
-2️⃣ Directory
+---
+
+## 2️⃣ Directory
 
 Folder that contains files or other directories
 
