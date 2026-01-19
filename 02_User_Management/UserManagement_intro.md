@@ -8,3 +8,28 @@ Key files involved in user management:
 - `/etc/shadow` – Stores encrypted user passwords.
 - `/etc/group` – Stores group information.
 - `/etc/gshadow` – Stores secure group details.
+
+## Creating Users in Linux
+To create a new user in Linux, use:
+
+### `useradd` Command (For most Linux distributions)
+```bash
+useradd username
+```
+This creates a user without a home directory.
+
+To create a user with a home directory:
+```bash
+useradd -m username
+```
+
+To specify a shell:
+```bash
+useradd -s /bin/bash username
+```
+
+### `adduser` Command (For Debian-based systems)
+```bash
+adduser username
+```
+This is an interactive command that asks for a password and additional details.
