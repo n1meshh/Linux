@@ -33,3 +33,23 @@ useradd -s /bin/bash username
 adduser username
 ```
 This is an interactive command that asks for a password and additional details.
+
+## Managing User Passwords
+To set or change a user’s password:
+```bash
+passwd username
+```
+
+### Enforcing Password Policies
+- **Password expiration**: Set password expiry days
+  ```bash
+  chage -M 90 username
+  ```
+- **Lock a user account**
+  ```bash
+  passwd -l username
+  ```
+- **Unlock a user account**
+  ```bash
+  passwd -u username
+  ```
