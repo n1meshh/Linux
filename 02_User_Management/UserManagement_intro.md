@@ -67,3 +67,14 @@ Modify an existing user with `usermod`:
   ```bash
   usermod -s /bin/zsh username
   ```
+
+## Deleting Users
+To remove a user but keep their home directory:
+```bash
+userdel username
+```
+To remove a user and their home directory:
+```bash
+userdel -r username
+rm -rf /home/dirname
+```
