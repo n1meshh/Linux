@@ -78,3 +78,24 @@ To remove a user and their home directory:
 userdel -r username
 rm -rf /home/dirname
 ```
+
+## Working with Groups
+### Creating Groups
+```bash
+groupadd groupname
+```
+
+### Adding Users to Groups
+```bash
+usermod -aG groupname username
+```
+
+### Viewing Group Memberships
+```bash
+groups username
+```
+
+### Changing Primary Group
+```bash
+usermod -g new_primary_group username
+```
