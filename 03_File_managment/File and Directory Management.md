@@ -7,10 +7,11 @@
 4. **`cd /path/to/directory`** – Changes the working directory.
 5. **`pwd`** – Prints the current working directory.
 6. **`mkdir new_folder`** – Creates a new directory.
-7. **`rmdir empty_folder`** – Removes an empty directory.
-8. **`rm file.txt`** – Deletes a file.
-9. **`rm -r folder`** – Deletes a folder and its contents.
-10. **`cp file1.txt file2.txt`** – Copies a file.
-11. **`cp -r dir1 dir2`** – Copies a directory recursively.
-12. **`mv old_name new_name`** – Moves or renames a file or directory.
+7. **`touch new_file`** – Creates a new file.
+8. **`rmdir empty_folder`** – Removes an empty directory.
+9.  **`rm file.txt`** – Deletes a file.
+10. **`rm -r folder`** – Deletes a folder and its contents.
+11. **`cp file1.txt file2.txt`** – Copies a file.
+12. **`cp -r dir1 dir2`** – Copies a directory recursively.
+13. **`mv old_name new_name`** – Moves or renames a file or directory.
     
