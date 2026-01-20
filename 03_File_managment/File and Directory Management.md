@@ -12,6 +12,7 @@
 9.  **`rm file.txt`** – Deletes a file.
 10. **`rm -r folder`** – Deletes a folder and its contents.
 11. **`cp file1.txt file2.txt`** – Copies a file.
-12. **`cp -r dir1 dir2`** – Copies a directory recursively.
-13. **`mv old_name new_name`** – Moves or renames a file or directory.
+12. **`cp source_path/*.txt destination_path/`** – Copies a file of one dir to another dir 
+13. **`cp -r dir1 dir2`** – Copies a directory recursively.
+14. **`mv old_name new_name`** – Moves or renames a file or directory.
     
