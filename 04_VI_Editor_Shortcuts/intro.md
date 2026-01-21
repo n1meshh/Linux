@@ -50,3 +50,13 @@
 - `P` – Paste **before** the cursor  
 
 ---
+
+### Search and Replace
+- `/pattern` – Search **forward** for a pattern  
+- `?pattern` – Search **backward** for a pattern  
+- `n` – Repeat last search **forward**  
+- `N` – Repeat last search **backward**  
+- `:%s/old/new/g` – Replace **all occurrences** of "old" with "new"  
+- `:s/old/new/g` – Replace **all occurrences** in the current line  
+
+---
