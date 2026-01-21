@@ -33,3 +33,20 @@
 - `Esc` – Exit insert mode  
 
 ---
+
+### Editing Text
+- `x` – Delete a **character**  
+- `X` – Delete a **character before cursor**  
+- `dw` – Delete a **word**  
+- `dd` – Delete a **line**  
+- `d$` – Delete from **cursor to end of line**  
+- `d0` – Delete from **cursor to beginning of line**  
+- `D` – Delete from **cursor to end of line**  
+- `u` – **Undo** last action  
+- `Ctrl + r` – **Redo** an undone change  
+- `yy` – Copy (yank) a **line**  
+- `yw` – Copy (yank) a **word**  
+- `p` – Paste **after** the cursor  
+- `P` – Paste **before** the cursor  
+
+---
