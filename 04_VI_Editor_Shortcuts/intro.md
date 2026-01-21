@@ -22,3 +22,14 @@
 - `:n` – Move to **line number `n`**  
 
 ---
+
+### Insert Mode Shortcuts
+- `i` – Insert before cursor  
+- `I` – Insert at the beginning of the line  
+- `a` – Append after cursor  
+- `A` – Append at the end of the line  
+- `o` – Open a new line below  
+- `O` – Open a new line above  
+- `Esc` – Exit insert mode  
+
+---
