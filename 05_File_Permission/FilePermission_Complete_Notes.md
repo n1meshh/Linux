@@ -61,3 +61,11 @@ chown -R newuser:newgroup directory/
 chgrp newgroup filename  # Change group
 chgrp -R newgroup directory/  # Change group recursively
 ```
+
+## Special Permissions
+### SetUID (`s` on user execute bit)
+Allows users to run a file with the file owner's permissions.
+```bash
+chmod u+s filename
+```
+Example: `/usr/bin/passwd` allows users to change their passwords.
