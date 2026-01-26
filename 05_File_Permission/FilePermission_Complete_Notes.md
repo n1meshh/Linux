@@ -55,3 +55,9 @@ Recursively change ownership:
 ```bash
 chown -R newuser:newgroup directory/
 ```
+
+## Changing Group Ownership with `chgrp`
+```bash
+chgrp newgroup filename  # Change group
+chgrp -R newgroup directory/  # Change group recursively
+```
