@@ -42,3 +42,16 @@ chmod 755 filename  # User (rwx), Group (r-x), Others (r-x)
 chmod 644 filename  # User (rw-), Group (r--), Others (r--)
 chmod 700 filename  # User (rwx), No access for others
 ```
+
+## Changing Ownership with `chown`
+Modify file owner and group:
+```bash
+chown newuser filename  # Change owner
+chown newuser:newgroup filename  # Change owner and group
+chown :newgroup filename  # Change only group
+```
+
+Recursively change ownership:
+```bash
+chown -R newuser:newgroup directory/
+```
