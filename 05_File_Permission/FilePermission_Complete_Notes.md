@@ -23,3 +23,12 @@ Output example:
 ### Using Symbolic Mode
 Modify permissions using symbols:
 - Add (`+`), remove (`-`), or set (`=`) permissions.
+Examples:
+```bash
+
+chmod u+x filename  # Add execute for user
+chmod g-w filename  # Remove write for group
+chmod o=r filename  # Set read-only for others
+chmod u=rwx,g=rx,o= filename  # Set full access for user, read/execute for group, and no access for others
+```
+
