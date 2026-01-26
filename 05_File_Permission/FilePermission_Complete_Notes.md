@@ -69,3 +69,18 @@ Allows users to run a file with the file owner's permissions.
 chmod u+s filename
 ```
 Example: `/usr/bin/passwd` allows users to change their passwords.
+
+### SetGID (`s` on group execute bit)
+Files: Users run the file with the group's permissions.
+Directories: Files created inside inherit the group.
+```bash
+chmod g+s filename  # Set on file
+chmod g+s directory/  # Set on directory
+```
+
+### Sticky Bit (`t` on others execute bit)
+Used on directories to allow only the owner to delete their files.
+```bash
+chmod +t directory/
+```
+Example: `/tmp` directory.
