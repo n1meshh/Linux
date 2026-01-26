@@ -32,3 +32,13 @@ chmod o=r filename  # Set read-only for others
 chmod u=rwx,g=rx,o= filename  # Set full access for user, read/execute for group, and no access for others
 ```
 
+### Using Numeric (Octal) Mode
+Each permission has a value:
+- Read (`4`), Write (`2`), Execute (`1`).
+
+Examples:
+```bash
+chmod 755 filename  # User (rwx), Group (r-x), Others (r-x)
+chmod 644 filename  # User (rw-), Group (r--), Others (r--)
+chmod 700 filename  # User (rwx), No access for others
+```
