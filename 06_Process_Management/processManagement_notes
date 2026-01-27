@@ -93,3 +93,14 @@ Resume a stopped process:
 ```bash
 kill -CONT PID
 ```
+
+### Changing Process Priority
+View process priorities:
+```bash
+top  # Look at the NI column
+```
+Change priority of a running process:
+```bash
+renice -n 10 -p PID  # Lower priority (positive values)
+renice -n -5 -p PID  # Higher priority (negative values, root required)
+```
